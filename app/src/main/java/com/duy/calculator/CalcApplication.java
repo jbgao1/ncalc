@@ -26,6 +26,6 @@ public class CalcApplication extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        FirebaseCrash.setCrashCollectionEnabled(!BuildConfig.DEBUG);
+        //FirebaseCrash.setCrashCollectionEnabled(!BuildConfig.DEBUG);
     }
 }
